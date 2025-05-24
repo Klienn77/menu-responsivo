@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo Avançado</title>
+   <!-- css -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- fonte -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><h1>Menu Responsivo</h1></a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav" id="nav-menu" aria-label="Menu principal">
+                <ul class="menu">
+                    <li class="menu-item active">
+                        <a href="#" class="menu-link">Início</a>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <a href="#" class="menu-link">Produtos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#" class="submenu-link">Eletrônicos</a></li>
+                            <li class="submenu-item"><a href="#" class="submenu-link">Vestuário</a></li>
+                            <li class="submenu-item"><a href="#" class="submenu-link">Acessórios</a></li>
+                            <li class="submenu-item"><a href="#" class="submenu-link">Casa e Decoração</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <a href="#" class="menu-link">Serviços <i class="fas fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#" class="submenu-link">Consultoria</a></li>
+                            <li class="submenu-item"><a href="#" class="submenu-link">Desenvolvimento</a></li>
+                            <li class="submenu-item"><a href="#" class="submenu-link">Suporte Técnico</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sobre Nós</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Criacão de Componentes Responsivos</h2>
+                <p>Este é um exemplo de menu responsivo com HTML, CSS e JavaScript.</p>
+            </div>
+        </section>
+    </main>
+<!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
